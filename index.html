@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take care of yourself</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+       
+      *{
+    font-family: phetsarath ot;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   cursor: pointer;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: -100%;
+
+}
+label.logo{
+   color: white;
+   line-height: 80px;
+   padding: 0 100px;
+   font-weight: bold; 
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.love
+a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media(max-width:952px){
+    label.logo{
+    font-size: 19px;
+    padding-left: 50px;
+   
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1b9bff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    }
+    nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    }
+    nav ul li a{
+    font-size: 20px;
+
+    }
+    a:hover,a.active{
+    background: none;
+    color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* ເຊື່ອມໂຍຍ */
+ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+  ul .dropdown-menu {
+    display: none;
+    position: absolute;
+    background:url(picture/ay.jpg);
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  }
+  
+  ul li:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    display: block;
+    padding: 5px 10px;
+    color:white;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #1b9bff;
+  }
+  /* ເຊື່ອມໂຍຍ */
+
+  /* hading */
+  h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+
+  }
+
+  /* ພາກສວນພື້ນຫລັງ */
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  #bg1 {
+    opacity: 1;
+  }
+  #bg2 {
+    opacity: 0;
+  }
+   /* ພາກສວນພື້ນຫລັງ */
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>  
+        </label>
+        <label class="logo">❤The importance of physical health❤️</label>
+        <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i>ໜ້າຫຼັກ</a></li>
+        <li><a href="ກ່ຽວກັບຮ່າງກາຍ.html">ກ່ຽວກັບຮ່າງກາຍ</a></li>
+        <li><a href="ວິທີດູແລ.html">ວິທີດູແລ</a></li>
+        <li><a href="ຂໍ້ດີຂອງການດູແລສຸຂະພາບ.html" >ຂໍ້ດີຂອງການດູແລສຸຂະພາບ  </a></li>
+        <li><a href="ຂໍ້ເສຍຂອງການບໍ່ດູແລສຸຂະພາບ.html" >ຂໍ້ເສຍຂອງການບໍ່ດູແລສຸຂະພາບ</a></li>
+        <li><a href="ຂໍ້ມູນເພີ່ມເຕີ່ມ.html" >ຂໍ້ມູນເພີ່ມເຕີ່ມ</a></li>
+        <li><a href="ຕິດຕໍ່.html">ຕິດຕໍ່</a></li>
+        </ul>
+          
+    </nav>
+    
+            <h1><i class="fa fa-heart"></i> Welcome to my website  <i class="fa fa-heart"></i></h1>
+       <h1>ກ່ອນຈະຮັກ ແລະ ດູແລຄົນອື່ນໄດ້ໃຫ້ດູແລຕົວເອງເປັນກ່ອນ</h1>
+
+    <!-- ພາກສ່ວນພື້ນຫລັງ -->
+    <div id="bg1" class="bg"></div>
+    <div id="bg2" class="bg"></div>
+    <!-- ພາກສ່ວນພື້ນຫລັງ -->
+
+   <script>
+    /* ພາກສວນພື້ນຫລັງ */
+var backgrounds = [
+  'url("img/R.jpg")',
+  'url("img/w.jpg")',
+  
+];
+
+let index = 0;
+let visible = true;
+
+function changeBackground() {
+  const bg1 = document.getElementById("bg1");
+  const bg2 = document.getElementById("bg2");
+
+  if (visible) {
+    bg2.style.backgroundImage = backgrounds[index];
+    bg2.style.opacity = 1;
+    bg1.style.opacity = 0;
+  } else {
+    bg1.style.backgroundImage = backgrounds[index];
+    bg1.style.opacity = 1;
+    bg2.style.opacity = 0;
+  }
+
+  visible = !visible;
+  index = (index + 1) % backgrounds.length;
+}
+
+changeBackground(); // ເລີ່ມຕົ້ນ
+setInterval(changeBackground, 20000); 
+
+ /* ພາກສວນພື້ນຫລັງ */
+
+   </script>
+</body>
+</html>

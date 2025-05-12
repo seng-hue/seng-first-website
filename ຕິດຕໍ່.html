@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: phetsarath ot;
+            cursor: pointer;
+        }
+        h2{
+            margin-top: 50px;
+            text-align: center;
+            color: white;
+            background: red;
+            margin-left: 200px;
+            margin-right: 200px;
+            border-radius: 50px;
+        }
+        .contact-section{
+            margin-left: 300px;
+            margin-right: 300px;
+           
+            background:linear-gradient(to right,lawngreen,blue,pink);
+        margin-bottom: 20px;
+            box-shadow: 15px 14px 25px greenyellow;
+        animation: b 2s linear infinite;
+       }
+        @keyframes b{
+            10%{ box-shadow: 15px 14px 25px blue;}
+            40%{ box-shadow: 15px 14px 25px white;}
+            70%{ box-shadow: 15px 14px 25px greenyellow;}
+            100%{ box-shadow: 15px 14px 25px red;}  
+        }
+       .contact-info{
+            text-align: center;
+            color: red;
+           
+        }
+        input{
+            background: transparent;
+            border: none;
+            border: solid 1px 3px white;
+            color: rgb(18, 242, 10);
+            border-radius: 50px;
+        }
+      form{
+        text-align: center;
+        border-radius: 50px;
+       
+      }
+    textarea{
+        background: transparent;
+            border: none;
+            border: solid 1px 3px white;
+            color: white(242, 10, 87);
+            border-radius: 10px;  
+    }
+    ::placeholder{
+        color: red;
+    }
+    button{
+        color: brown;
+        border-radius: 10px;
+    }
+    button{
+        font-size: 30px;
+        border-radius: 30px;
+        background:linear-gradient(palevioletred,greenyellow) ;
+        box-shadow: 15px 14px 25px greenyellow;
+        animation: b 2s linear infinite;
+       }
+        @keyframes b{
+            10%{ box-shadow: 15px 14px 25px blue;}
+            40%{ box-shadow: 15px 14px 25px white;}
+            70%{ box-shadow: 15px 14px 25px greenyellow;}
+            100%{ box-shadow: 15px 14px 25px red;} 
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="window.location.href='index.html';">ກັບຄືນ</button>
+        <br>
+        <section id="contact" class="contact-section">
+         <h2>ຂໍ້ມູນການຕິດຕໍ່</h2>
+         <div class="contact-info">
+            <p><strong>tel:</strong>   02091355007</p>
+            <p><strong>facebook:</strong>   sengchanh xyh</p>
+            <p><strong>Whatsapp:</strong>   99583623</p>
+            <p><strong>ທີ່ຢູ່:</strong>   ແຂວງເຊກອງ,ເມືອງລະມາມ</p>
+         </div>
+         <form action="" >
+            <input type="text" name="name" placeholder="ຊື່ຂອງທ່ານ" required>
+            <br>
+            <input type="email" name="email" placeholder="ອີເມວຂອງທ່ານ" required>
+            <br>
+            <input type="tel" name="tel" placeholder="ເບີໂທຂອງທ່ານ">
+            <br>
+            <textarea name="message" rows="6" placeholder="ຂຽນຄວາມຄິດເຫັນ" required></textarea>
+            <br>
+            <button type="submit">ສົ່ງຂໍ້ຄວາມ</button>
+        
+         </form>
+         <br>
+        </section>
+    </div>
+</body>
+</html>
